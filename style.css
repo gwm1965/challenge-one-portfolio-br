@@ -56,6 +56,7 @@ height: 88px;
 flex: none;
 order: 0;
 flex-grow: 0;
+
     
 
 }
@@ -71,6 +72,7 @@ height: 24px;
 flex: none;
 order: 0;
 flex-grow: 0;
+
 
 }
 
@@ -212,44 +214,167 @@ section.title{
     height: 368px;
     flex: none;
     order: 1;
-    flex-grow: 0;
-    
+    flex-grow: 0;  
+  
 
+}
+
+.title .title__profile {
+    width: 368px;
+    height: 368px;
+    background: url(.jpg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.title .title__bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 24px;
+    width: 751px;
+    height: 246px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title .title__subsection {
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title .title__network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 467px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
 /*Sessão About*/
 
 section.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    width: 1440px;
+    height: 383px;
+    background: #EAF2FD;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
 
 }
 
 /*Sessão Hobbies*/
 
 section.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+    width: 1440px;
+    height: 1245px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
     
 }
 
 /* Experiência Acadêmica*/
 
 section.academic{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 82px;
+gap: 32px;
+
+width: 1440px;
+height: 581px;
+
+/* Azul/10% */
+
+background: #EAF2FD;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
 
 }
 
 /* experiência*/
 
 section.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 1886px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
 
 }
 
 /*Contato*/
 
 section.formcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    width: 1440px;
+    height: 788px;
+    background:  #EAF2FD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 }
 
 /*footeer*/
 
 section.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 102px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
    
 }
 
