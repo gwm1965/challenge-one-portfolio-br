@@ -11,7 +11,7 @@ coloque nas sessões indicadas*/
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+   background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
@@ -41,6 +41,10 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 div.all{
+    position: relative;
+    width: 1440px;
+    height: 5020px;
+    background: var(--cor-de-fundo);
     
 }
 
@@ -51,7 +55,7 @@ justify-content: space-between;
 align-items: center;
 padding: 32px 0px;
 gap: 611px;
-width: 1600px;
+width: 1136px;
 height: 88px;
 flex: none;
 order: 0;
@@ -211,28 +215,35 @@ section.title{
     padding: 0px;
     gap: 208px;
     width: 1136px;
-    height: 368px;
+    height: 800px;
     flex: none;
     order: 1;
-    flex-grow: 0;  
-  
+    flex-grow: 0;    
 
 }
 
-/*.title .title__profile {
+.title .title__div {
+   
+    width: 1136px;
+    display: flex;
+    align-items: center;
+    margin: none;
+    padding: 0;
+}
+
+.title__div .title__profile {
     width: 368px;
     height: 368px;
-    background: url(.jpg);
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.title .title__bio {
+.title__div .title__container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px;
+    padding: 0px;
     gap: 24px;
     width: 751px;
     height: 246px;
@@ -241,39 +252,13 @@ section.title{
     flex-grow: 0;
 }
 
-.title .title__subsection {
-    width: 751px;
-    height: 52px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    color: #464646;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-}
 
-.title .title__network {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    width: 467px;
-    height: 24px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;*/
-}
 
 /*Sessão About*/
 
 section.about{
     display: flex;
-    flex-direction: column;
+    flex-direction: column
     align-items: center;
     padding: 64px;
     gap: 10px;
@@ -327,7 +312,7 @@ order: 2;
 align-self: stretch;
 flex-grow: 0;
 
-}
+}*/
 
 /* experiência*/
 
