@@ -219,7 +219,7 @@ section.title{
 
 }
 
-.title .title__profile {
+/*.title .title__profile {
     width: 368px;
     height: 368px;
     background: url(.jpg);
@@ -266,7 +266,7 @@ section.title{
     height: 24px;
     flex: none;
     order: 2;
-    flex-grow: 0;
+    flex-grow: 0;*/
 }
 
 /*Sessão About*/
