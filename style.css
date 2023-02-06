@@ -43,7 +43,7 @@ https://en.bem.info/methodology/quick-start/*/
 div.all{
     position: relative;
     width: 1440px;
-    height: 5020px;
+    height: 5220px;
     background: var(--cor-de-fundo);
     
 }
@@ -258,18 +258,117 @@ section.title{
 
 section.about{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
     align-items: center;
     padding: 64px;
     gap: 10px;
     width: 1440px;
-    height: 383px;
+    height: 543px;
     background: #EAF2FD;
     flex: none;
     order: 2;
     align-self: stretch;
     flex-grow: 0;
 
+}
+
+.about .about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 530px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.about .about__title {
+    width: 166px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+p.about__paragraph {
+    width: 751px;
+    height: 133px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.about__container  img {    
+    width: 140px;
+    height: 52px;
+    background: url(image);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+section.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skills .skills__title {
+    width: 82px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skills .skills__line {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.skills .skills__box {
+    
+
+    
 }
 
 /*Sessão Hobbies*/
@@ -279,15 +378,49 @@ section.hobbies{
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 88px;
-    width: 1440px;
-    height: 1245px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
     flex: none;
-    order: 3;
-    align-self: stretch;
+    order: 1;
     flex-grow: 0;
     
 }
+
+.hobbies .hobbies__title {
+    width: 127px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies .hobbies__line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.hobbies .hobbies__box {
+    
+}
+
+
 
 /* Experiência Acadêmica*/
 
