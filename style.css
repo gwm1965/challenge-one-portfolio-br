@@ -7,6 +7,11 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-texto: #464646;
+   --teste: #ff0404;
+   --cor-de-fundo-itens: #ffffff;
+   --cor-elementos-skill: #2a7ae4; 
+
 }
 
 body {
@@ -45,6 +50,7 @@ div.all{
     width: 1440px;
     height: 5220px;
     background: var(--cor-de-fundo);
+    
     
 }
 
@@ -116,7 +122,7 @@ nav.menu__nav ul.menu__list {
     flex-grow: 0;    
 }
 
-li.menu__list__item > a.sobre-mim {
+.menu__list li.menu__list__item:nth-child(1) {
 width: 82px;
 height: 19px;
 font-family: 'Raleway';
@@ -124,13 +130,13 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-color: #464646;
+color: var(--cor-de-texto);
 flex: none;
 order: 0;
 flex-grow: 0;
 }
 
-li.menu__list__item > a.skills {
+.menu__list li.menu__list__item:nth-child(2) {
 width: 40px;
 height: 19px;
 font-family: 'Raleway';
@@ -144,7 +150,7 @@ order: 1;
 flex-grow: 0;
 }
 
-li.menu__list__item > a.hobbies{
+.menu__list li.menu__list__item:nth-child(3){
 width: 63px;
 height: 19px;
 font-family: 'Raleway';
@@ -159,7 +165,7 @@ flex-grow: 0;
     
 
 }
-li.menu__list__item > a.formacao{
+.menu__list li.menu__list__item:nth-child(4){
 width: 76px;
 height: 19px;
 font-family: 'Raleway';
@@ -174,7 +180,7 @@ flex-grow: 0;
 
 }
 
-li.menu__list__item > a.xp{
+.menu__list li.menu__list__item:nth-child(5){
     width: 62px;
     height: 19px;
     font-family: 'Raleway';
@@ -250,6 +256,102 @@ section.title{
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.title__container .title__bio {
+    width: 751px;
+    height: 122px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;line-height: 61px;
+    color: var(--cor-de-texto);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+
+.title__container .title__subsection {
+    width: 751;
+    height: 52px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: var(--cor-de-texto);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title__container .title__network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 467px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;  
+    
+}
+
+.title__network .title__network__item:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 78px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.title__network .title__network__item:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 92px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+
+.title__network .title__network__item:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 104px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;    
+}
+
+.title__network .title__network__item:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 97px;
+    height: 24px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;    
 }
 
 
@@ -365,11 +467,246 @@ section.skills {
 
 }
 
-.skills .skills__box {
-    
-
+.skills .skills__box:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: var(--cor-de-fundo-itens);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+     
     
 }
+
+.skills .skills__box:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: var(--cor-de-fundo-itens);
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+     
+ }
+
+ .skills .skills__box:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: var(--cor-de-fundo-itens);
+    flex: none;
+    order: 2;
+    flex-grow: 0;  
+     
+ }
+
+ .skills .skills__box:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: var(--cor-de-fundo-itens);
+    flex: none;
+    order: 3;
+    flex-grow: 0;  
+     
+ }
+
+ .skills .skills__box:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: var(--cor-de-fundo-itens);
+    flex: none;
+    order: 4;
+    flex-grow: 0; 
+     
+ }
+
+ .skills .skills__box:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: var(--cor-de-fundo-itens);
+    flex: none;
+    order: 5;
+    flex-grow: 0;  
+     
+ }
+
+ /*.skills .skills__box > ul .skills__img{
+    display: none;    
+
+ }*/
+
+ .skills .skills__box:nth-child(1) > ul .skills__img  {
+    width: 24px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-elementos-skill);
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+    
+ }
+
+ .skills .skills__box:nth-child(2) > ul .skills__img  {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-elementos-skill);
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+    
+ }
+
+ .skills .skills__box:nth-child(3) > ul .skills__img  {
+    width: 40px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-elementos-skill);
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+    
+ }
+
+ .skills .skills__box:nth-child(4) > ul .skills__img  {
+    width: 40px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-elementos-skill);
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+    
+ }
+
+ .skills .skills__box:nth-child(5) > ul .skills__img  {
+    width: 32px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-elementos-skill);
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+    
+ }
+
+ .skills .skills__box:nth-child(6) > ul .skills__img  {
+    width: 22px;
+    height: 35.54px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-elementos-skill);
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+    
+ }
+
+ .skills .skills__box:nth-child(1) > ul .skills__name {
+    font-size: 16px;
+ }
+
+ .skills .skills__box:nth-child() > ul .skills__name {
+    font-size: 16px;
+ }
+
+ .skills .skills__box:nth-child() > ul .skills__name {
+    font-size: 16px;
+ }
+
+ .skills .skills__box:nth-child() > ul .skills__name {
+    font-size: 16px;
+ }
+
+ .skills .skills__box:nth-child() > ul .skills__name {
+    font-size: 16px;
+ }
+
+ .skills .skills__box:nth-child() > ul .skills__name {
+    font-size: 16px;
+ }
+
+ .skills .skills__box:nth-child() > ul .skills__name {
+    font-size: 16px;
+ }
+
+
+
 
 /*Sessão Hobbies*/
 
@@ -416,8 +753,30 @@ section.hobbies{
 
 }
 
-.hobbies .hobbies__box {
-    
+
+
+.hobbies .hobbies__box:nth-child(1) {
+    background-color: antiquewhite;    
+}
+
+.hobbies .hobbies__box:nth-child(2) {
+    background-color: antiquewhite;    
+}
+
+.hobbies .hobbies__box:nth-child(3) {
+    background-color: antiquewhite;    
+}
+
+.hobbies .hobbies__box:nth-child(4) {
+    background-color: antiquewhite;    
+}
+
+.hobbies .hobbies__box:nth-child(5) {
+    background-color: antiquewhite;    
+}
+
+.hobbies .hobbies__box:nth-child(6) {
+    background-color: antiquewhite;    
 }
 
 
