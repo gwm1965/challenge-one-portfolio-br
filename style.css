@@ -2,30 +2,34 @@
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
+:root {
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-   --cor-de-texto: #464646;
-   --teste: #ff0404;
-   --cor-de-fundo-itens: #ffffff;
-   --cor-elementos-skill: #2a7ae4; 
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --cor-de-texto: #464646;
+    --teste: #ff0404;
+    --cor-de-fundo-itens: #ffffff;
+    --cor-elementos-skill: #2a7ae4;
 
 }
 
 body {
     box-sizing: border-box;
-   background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-ol, ul,li {
+
+ol,
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
@@ -45,48 +49,48 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
-div.all{
+div.all {
     position: relative;
     width: 1440px;
     height: 5220px;
     background: var(--cor-de-fundo);
-    
-    
+
+
 }
 
 section.menu {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 32px 0px;
-gap: 611px;
-width: 1136px;
-height: 88px;
-flex: none;
-order: 0;
-flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 611px;
+    width: 1136px;
+    height: 88px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
-    
+
 
 }
 
 header {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 8px;
-width: 134px;
-height: 24px;
-flex: none;
-order: 0;
-flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 134px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 
 }
 
-header > img {
+header>img {
     width: 24px;
     height: 24px;
     flex: none;
@@ -106,7 +110,7 @@ header .menu__title {
     flex: none;
     order: 1;
     flex-grow: 0;
-    
+
 }
 
 nav.menu__nav ul.menu__list {
@@ -119,68 +123,69 @@ nav.menu__nav ul.menu__list {
     height: 19px;
     flex: none;
     order: 1;
-    flex-grow: 0;    
+    flex-grow: 0;
 }
 
 .menu__list li.menu__list__item:nth-child(1) {
-width: 82px;
-height: 19px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: var(--cor-de-texto);
-flex: none;
-order: 0;
-flex-grow: 0;
+    width: 82px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cor-de-texto);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .menu__list li.menu__list__item:nth-child(2) {
-width: 40px;
-height: 19px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #464646;
-flex: none;
-order: 1;
-flex-grow: 0;
+    width: 40px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
-.menu__list li.menu__list__item:nth-child(3){
-width: 63px;
-height: 19px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #464646;
-flex: none;
-order: 2;
-flex-grow: 0;
-    
+.menu__list li.menu__list__item:nth-child(3) {
+    width: 63px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 
-}
-.menu__list li.menu__list__item:nth-child(4){
-width: 76px;
-height: 19px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #464646;
-flex: none;
-order: 3;
-flex-grow: 0;    
 
 }
 
-.menu__list li.menu__list__item:nth-child(5){
+.menu__list li.menu__list__item:nth-child(4) {
+    width: 76px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+
+.menu__list li.menu__list__item:nth-child(5) {
     width: 62px;
     height: 19px;
     font-family: 'Raleway';
@@ -191,29 +196,29 @@ flex-grow: 0;
     color: #464646;
     flex: none;
     order: 4;
-    flex-grow: 0;    
+    flex-grow: 0;
 
 }
 
 li.menu__list__item__contato {
-width: 180px;
-height: 19px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: #464646;
-flex: none;
-order: 5;
-flex-grow: 0; 
-   
+    width: 180px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
 
 }
 
 /*Sessão Title*/
 
-section.title{
+section.title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -224,12 +229,12 @@ section.title{
     height: 800px;
     flex: none;
     order: 1;
-    flex-grow: 0;    
+    flex-grow: 0;
 
 }
 
 .title .title__div {
-   
+
     width: 1136px;
     display: flex;
     align-items: center;
@@ -264,13 +269,14 @@ section.title{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;line-height: 61px;
+    font-size: 52px;
+    line-height: 61px;
     color: var(--cor-de-texto);
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    
+
 }
 
 .title__container .title__subsection {
@@ -298,8 +304,8 @@ section.title{
     height: 24px;
     flex: none;
     order: 2;
-    flex-grow: 0;  
-    
+    flex-grow: 0;
+
 }
 
 .title__network .title__network__item:nth-child(1) {
@@ -312,7 +318,7 @@ section.title{
     height: 24px;
     flex: none;
     order: 0;
-    flex-grow: 0;    
+    flex-grow: 0;
 }
 
 .title__network .title__network__item:nth-child(2) {
@@ -325,7 +331,7 @@ section.title{
     height: 24px;
     flex: none;
     order: 1;
-    flex-grow: 0;    
+    flex-grow: 0;
 }
 
 .title__network .title__network__item:nth-child(3) {
@@ -338,7 +344,7 @@ section.title{
     height: 24px;
     flex: none;
     order: 2;
-    flex-grow: 0;    
+    flex-grow: 0;
 }
 
 .title__network .title__network__item:nth-child(4) {
@@ -351,14 +357,14 @@ section.title{
     height: 24px;
     flex: none;
     order: 3;
-    flex-grow: 0;    
+    flex-grow: 0;
 }
 
 
 
 /*Sessão About*/
 
-section.about{
+section.about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -415,7 +421,7 @@ p.about__paragraph {
     flex-grow: 0;
 }
 
-.about__container  img {    
+.about__container img {
     width: 140px;
     height: 52px;
     background: url(image);
@@ -453,7 +459,7 @@ section.skills {
 }
 
 .skills .skills__line {
-    
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -480,8 +486,8 @@ section.skills {
     flex: none;
     order: 0;
     flex-grow: 0;
-     
-    
+
+
 }
 
 .skills .skills__box:nth-child(2) {
@@ -496,11 +502,11 @@ section.skills {
     background: var(--cor-de-fundo-itens);
     flex: none;
     order: 1;
-    flex-grow: 0;  
-     
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(3) {
+}
+
+.skills .skills__box:nth-child(3) {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -512,11 +518,11 @@ section.skills {
     background: var(--cor-de-fundo-itens);
     flex: none;
     order: 2;
-    flex-grow: 0;  
-     
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(4) {
+}
+
+.skills .skills__box:nth-child(4) {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -528,11 +534,11 @@ section.skills {
     background: var(--cor-de-fundo-itens);
     flex: none;
     order: 3;
-    flex-grow: 0;  
-     
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(5) {
+}
+
+.skills .skills__box:nth-child(5) {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -544,11 +550,11 @@ section.skills {
     background: var(--cor-de-fundo-itens);
     flex: none;
     order: 4;
-    flex-grow: 0; 
-     
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(6) {
+}
+
+.skills .skills__box:nth-child(6) {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -560,16 +566,16 @@ section.skills {
     background: var(--cor-de-fundo-itens);
     flex: none;
     order: 5;
-    flex-grow: 0;  
-     
- }
+    flex-grow: 0;
 
- /*.skills .skills__box > ul .skills__img{
+}
+
+/*.skills .skills__box > ul .skills__img{
     display: none;    
 
  }*/
 
- .skills .skills__box:nth-child(1) > ul .skills__img  {
+.skills .skills__box:nth-child(1)>ul .skills__img {
     width: 24px;
     height: 37px;
     font-family: 'Font Awesome 5 Brands';
@@ -583,11 +589,11 @@ section.skills {
     color: var(--cor-elementos-skill);
     flex: none;
     order: 0;
-    flex-grow: 0;    
-    
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(2) > ul .skills__img  {
+}
+
+.skills .skills__box:nth-child(2)>ul .skills__img {
     width: 28px;
     height: 37px;
     font-family: 'Font Awesome 5 Brands';
@@ -601,11 +607,11 @@ section.skills {
     color: var(--cor-elementos-skill);
     flex: none;
     order: 0;
-    flex-grow: 0;    
-    
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(3) > ul .skills__img  {
+}
+
+.skills .skills__box:nth-child(3)>ul .skills__img {
     width: 40px;
     height: 37px;
     font-family: 'Font Awesome 5 Brands';
@@ -619,11 +625,11 @@ section.skills {
     color: var(--cor-elementos-skill);
     flex: none;
     order: 0;
-    flex-grow: 0;    
-    
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(4) > ul .skills__img  {
+}
+
+.skills .skills__box:nth-child(4)>ul .skills__img {
     width: 40px;
     height: 37px;
     font-family: 'Font Awesome 5 Brands';
@@ -637,11 +643,11 @@ section.skills {
     color: var(--cor-elementos-skill);
     flex: none;
     order: 0;
-    flex-grow: 0;    
-    
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(5) > ul .skills__img  {
+}
+
+.skills .skills__box:nth-child(5)>ul .skills__img {
     width: 32px;
     height: 37px;
     font-family: 'Font Awesome 5 Brands';
@@ -655,11 +661,11 @@ section.skills {
     color: var(--cor-elementos-skill);
     flex: none;
     order: 0;
-    flex-grow: 0;    
-    
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(6) > ul .skills__img  {
+}
+
+.skills .skills__box:nth-child(6)>ul .skills__img {
     width: 22px;
     height: 35.54px;
     font-family: 'Font Awesome 5 Brands';
@@ -673,44 +679,181 @@ section.skills {
     color: var(--cor-elementos-skill);
     flex: none;
     order: 0;
-    flex-grow: 0;    
-    
- }
+    flex-grow: 0;
 
- .skills .skills__box:nth-child(1) > ul .skills__name {
-    font-size: 16px;
- }
+}
 
- .skills .skills__box:nth-child() > ul .skills__name {
-    font-size: 16px;
- }
+.skills .skills__box:nth-child(1)>ul .skills__name {
+    width: 144px;
+    height: 19px;
 
- .skills .skills__box:nth-child() > ul .skills__name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
- }
+    line-height: 19px;
+    /* identical to box height */
 
- .skills .skills__box:nth-child() > ul .skills__name {
-    font-size: 16px;
- }
+    display: flex;
+    align-items: center;
 
- .skills .skills__box:nth-child() > ul .skills__name {
-    font-size: 16px;
- }
+    /* Preto/100% */
 
- .skills .skills__box:nth-child() > ul .skills__name {
-    font-size: 16px;
- }
+    color: #464646;
 
- .skills .skills__box:nth-child() > ul .skills__name {
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.skills .skills__box:nth-child(2)>ul .skills__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
- }
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.skills .skills__box:nth-child(3)>ul .skills__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.skills .skills__box:nth-child(4)>ul .skills__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.skills .skills__box:nth-child(5)>ul .skills__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.skills .skills__box:nth-child(6)>ul .skills__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
 
 
 
 
 /*Sessão Hobbies*/
 
-section.hobbies{
+section.hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -721,7 +864,7 @@ section.hobbies{
     flex: none;
     order: 1;
     flex-grow: 0;
-    
+
 }
 
 .hobbies .hobbies__title {
@@ -756,59 +899,432 @@ section.hobbies{
 
 
 .hobbies .hobbies__box:nth-child(1) {
-    background-color: antiquewhite;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .hobbies .hobbies__box:nth-child(2) {
-    background-color: antiquewhite;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .hobbies .hobbies__box:nth-child(3) {
-    background-color: antiquewhite;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
 .hobbies .hobbies__box:nth-child(4) {
-    background-color: antiquewhite;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
 }
 
 .hobbies .hobbies__box:nth-child(5) {
-    background-color: antiquewhite;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
 }
 
 .hobbies .hobbies__box:nth-child(6) {
-    background-color: antiquewhite;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
 }
+
+.hobbies .hobbies__box:nth-child(1)>ul .hobbies__img {
+    width: 32px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies .hobbies__box:nth-child(2)>ul .hobbies__img {
+    width: 32px;
+    height: 37px;
+
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2A7AE4;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.hobbies .hobbies__box:nth-child(3)>ul .hobbies__img {
+    width: 32px;
+    height: 32px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies .hobbies__box:nth-child(4)>ul .hobbies__img {
+    width: 32px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies .hobbies__box:nth-child(5)>ul .hobbies__img {
+    width: 32px;
+    height: 32px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies .hobbies__box:nth-child(6)>ul .hobbies__img {
+    width: 32px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+}
+
+.hobbies .hobbies__box:nth-child(1)>ul .hobbies__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.hobbies .hobbies__box:nth-child(2)>ul .hobbies__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.hobbies .hobbies__box:nth-child(3)>ul .hobbies__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+.hobbies .hobbies__box:nth-child(4)>ul .hobbies__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.hobbies .hobbies__box:nth-child(5)>ul .hobbies__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+.hobbies .hobbies__box:nth-child(6)>ul .hobbies__name {
+    width: 144px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+
+
 
 
 
 /* Experiência Acadêmica*/
 
-section.academic{
+section.academic {
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 82px;
-gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
+    gap: 32px;
 
-width: 1440px;
-height: 581px;
+    width: 1440px;
+    height: 581px;
 
-/* Azul/10% */
+    /* Azul/10% */
 
-background: #EAF2FD;
+    background: #EAF2FD;
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
 
-}*/
+}
 
+*/
 /* experiência*/
 
-section.experience{
+section.experience {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -824,7 +1340,7 @@ section.experience{
 
 /*Contato*/
 
-section.formcontato{
+section.formcontato {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -832,7 +1348,7 @@ section.formcontato{
     gap: 10px;
     width: 1440px;
     height: 788px;
-    background:  #EAF2FD;
+    background: #EAF2FD;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -841,7 +1357,7 @@ section.formcontato{
 
 /*footeer*/
 
-section.footer{
+section.footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -852,7 +1368,7 @@ section.footer{
     flex: none;
     order: 1;
     flex-grow: 0;
-   
+
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
@@ -861,39 +1377,39 @@ utilize como referência os breakpoints @media abaixo*/
 /*Tablet*/
 @media (min-width: 768px) {
 
-/* Menu */
+    /* Menu */
 
-/*title*/
+    /*title*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
+    /*Hobbies*/
 
-/*Experiências acadêmicas*/
+    /*Experiências acadêmicas*/
 
-/*Expeirência profissional*/
+    /*Expeirência profissional*/
 
 }
 
 /*Mobile*/
 @media (min-width: 425px) {
 
-/*Menu*/
+    /*Menu*/
 
-/*Titulo*/
+    /*Titulo*/
 
-/*Sessão sobre*/
+    /*Sessão sobre*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
+    /*Hobbies*/
 
-/*Experiência Profissional*/
+    /*Formação Acadêmica*/
 
- /*Contato*/
+    /*Experiência Profissional*/
 
-/*Footer*/
+    /*Contato*/
+
+    /*Footer*/
 
 }
