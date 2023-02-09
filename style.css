@@ -1291,11 +1291,6 @@ section.hobbies {
 
 }
 
-
-
-
-
-
 /* Experiência Acadêmica*/
 
 section.academic {
@@ -1318,8 +1313,316 @@ section.academic {
     order: 2;
     align-self: stretch;
     flex-grow: 0;
+}
+
+.academic .academic__title {
+    width: 330px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: var(--cor-de-texto);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.academic .academic__courses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 347px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 
 }
+
+.academic .academic__courses__box:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 347px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.academic .academic__courses__box:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 347px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.academic .academic__courses__box:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 347px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.academic__courses__box:nth-child(1) .academic__courses__list .academic__courses__item__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 368px;
+    height: 286px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.academic__courses__box:nth-child(2) .academic__courses__list .academic__courses__item__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 368px;
+    height: 286px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.academic__courses__box:nth-child(3) .academic__courses__list .academic__courses__item__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 368px;
+    height: 286px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.academic__courses__box:nth-child(1) .academic__courses__list .academic__courses__item__title {
+    width: 181px;
+    height: 26px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+.academic__courses__box:nth-child(2) .academic__courses__list .academic__courses__item__title {
+    width: 219px;
+    height: 26px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+.academic__courses__box:nth-child(3) .academic__courses__list .academic__courses__item__title {
+    width: 238px;
+    height: 26px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.academic__courses__box:nth-child(1) .academic__courses__list .academic__courses__item__subtitle {
+    width: 92px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.academic__courses__box:nth-child(2) .academic__courses__list .academic__courses__item__subtitle {
+    width: 90px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+
+}
+
+.academic__courses__box:nth-child(3) .academic__courses__list .academic__courses__item__subtitle {
+    width: 169px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+
 
 */
 /* experiência*/
@@ -1338,21 +1641,835 @@ section.experience {
 
 }
 
-/*Contato*/
+section.experience .experience__section__title {
+    width: 364px;
+    height: 38px;
 
-section.formcontato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 64px;
-    gap: 10px;
-    width: 1440px;
-    height: 788px;
-    background: #EAF2FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
 
+}
+
+section.experience .experiencie__box:nth-child(2) {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 406px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 112px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info .experience__text {
+    width: 368px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info .experience__description {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 560px;
+    height: 51px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info .experience__description .experience__repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 116px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info .experience__description .experience__repo .a {
+    width: 84px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info .experience__description .experience__demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 105px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(2) .experience__info .experience__description .experience__demo .experiencia__botao--demo {
+    width: 93px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #2A7AE4;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/*Parte 2 */
+
+section.experience .experiencie__box:nth-child(3) {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 406px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 112px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info .experience__text {
+    width: 368px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info .experience__description {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 560px;
+    height: 51px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info .experience__description .experience__repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 116px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info .experience__description .experience__repo .a {
+    width: 84px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info .experience__description .experience__demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 105px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(3) .experience__info .experience__description .experience__demo .experiencia__botao--demo {
+    width: 93px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #2A7AE4;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/* parte 4*/
+
+
+section.experience .experiencie__box:nth-child(4) {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 406px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 112px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info .experience__text {
+    width: 368px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info .experience__description {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 560px;
+    height: 51px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info .experience__description .experience__repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 116px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info .experience__description .experience__repo .a {
+    width: 84px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info .experience__description .experience__demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 105px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(4) .experience__info .experience__description .experience__demo .experiencia__botao--demo {
+    width: 93px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #2A7AE4;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/* parte final*/
+
+
+section.experience .experiencie__box:nth-child(5) {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 406px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 368px;
+    height: 112px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info .experience__text {
+    width: 368px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info .experience__description {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 560px;
+    height: 51px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info .experience__description .experience__repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 116px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info .experience__description .experience__repo .a {
+    width: 84px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info .experience__description .experience__demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 105px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+section.experience .experiencie__box:nth-child(5) .experience__info .experience__description .experience__demo .experiencia__botao--demo {
+    width: 93px;
+    height: 19px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #2A7AE4;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Contato*/
+
+section.formcontato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0px 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 660px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
+}
+
+ .formcontato__contacto .formcontato--esquerda .formcontato__img { 
+
+
+    width: 464px;
+    height: 593px;
+    background: url(.jpg), #EDEDED;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.formcontato__contacto .formcontato__text {
+    background-color: aquamarine;
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 656px;
+height: 596px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
 }
 
 /*footeer*/
@@ -1370,6 +2487,25 @@ section.footer {
     flex-grow: 0;
 
 }
+
+section.footer .footer__rodape {
+    width: 234px;
+height: 38px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Preto/100% */
+
+color: #464646;
+
+}
+
+
 
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
